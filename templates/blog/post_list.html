@@ -1,4 +1,4 @@
-<!-- {% extends 'base.html' %}
+{% extends 'base.html' %}
 
 {% block content %}
 {% for film in film_list %}
@@ -27,7 +27,7 @@
             </thead>
             <tbody>
             
-                {% for post in post_list %}
+            {% for post in post_list %}
                 <tr>
                     {% comment %} <th scope="row">{{forloop.counter}}</th> {% endcomment %}
                     <td class="ml-5"><a href="{{post.get_absolute_url}}">{{post.title}}</a></td>
@@ -49,4 +49,4 @@
         
 </div>
 
-{% endblock content %} -->
+{% endblock content %}
